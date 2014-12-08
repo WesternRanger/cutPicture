@@ -1,0 +1,88 @@
+body{
+    background: #333;
+}
+#box{
+    position: absolute;
+    top:100px;
+    left:200px;
+    width:460px;
+    height:360px;
+}
+#img1{
+    opacity: 0.4;
+    position: absolute;
+    top:0;
+    left:0;
+}
+#img2{
+    position: absolute;
+    top:0;
+    left:0;
+    clip:rect(0,200px,200px,0);
+}
+#main{
+    border:1px solid #fff;
+    height:200px;
+    width:200px;
+    position: absolute;
+}
+.minDiv{
+    position: absolute;
+    width:8px;
+    height:8px;
+    background: #fff;
+}
+.left-up{
+    top:-4px;
+    left:-4px;
+    cursor: nw-resize;
+}
+.up{
+    top:-4px;
+    left:50%;
+    margin-left: -4px;
+    cursor:n-resize;
+}
+.right-up{
+    top:-4px;
+    right: -4px;
+    cursor: ne-resize;
+}
+.left{
+    left:-4px;
+    top:50%;
+    margin-top: -4px;
+    cursor: w-resize;
+}
+.right{
+    right: -4px;
+    top:50%;
+    margin-top: -4px;
+    cursor: e-resize;
+}
+.left-down{
+    bottom:-4px;
+    left:-4px;
+    cursor: sw-resize;
+}
+.down{
+    bottom: -4px;
+    left: 50%;
+    margin-left: -4px;
+    cursor: s-resize;
+}
+.right-down{
+    bottom:-4px;
+    right:-4px;
+    cursor: se-resize;
+}
+#preview{
+    position: absolute;
+    width:460px;
+    height:360px;
+    top:100px;
+    left:770px;
+}
+#preview img{
+    position: absolute;
+}
